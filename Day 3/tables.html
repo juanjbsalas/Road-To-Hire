@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables Demo</title>
+</head>
+
+<!-- Dont worry about this chunk of code yet -->
+
+<style>
+    table {
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+    td,
+    tr,
+    th {
+        border: 1px solid black;
+    }
+</style>
+
+<!-- Until here -->
+
+
+
+<body>
+    <h1>Tables Demo</h1>
+    <table>
+    <caption>List of stoutest living single trunk living trees by species</caption>
+        <thead>
+            <tr>
+                <th>Species</th>
+                <th>Diameter (ft)</th>
+                <th>Diameter (meters)</th>
+                <th>Tree name</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Eurasian Lynx</td>
+                <td>1.0</td>
+                <td>2.5</td>
+                <td>Roble</td>
+
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Avg Diameter</td>
+            <td>X</td>
+                <td>X</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <h2><u>Second Version</u></h2>
+    <table>
+    <caption>List of stoutest living single trunk living trees by species</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Species</th>
+                <th colspan="2">Diameter</th>
+                <th rowspan="2">Tree name</th>
+            </tr>
+            <tr>
+                <th>Meters</th>
+                <th>Feet</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Eurasian Lynx</td>
+                <td>1.0</td>
+                <td>2.5</td>
+                <td>Roble</td>
+
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Avg Diameter</td>
+                <td>X</td>
+                <td>X</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+</html>
