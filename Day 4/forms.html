@@ -50,6 +50,12 @@
         <label for="green">Green</label>
         <button>SUBMIT</button>
     </form>
+
+    <hr>
+
+    <h2><u>Text Area</u></h2>
+    <p>Write a show story down below</p>
+    <textarea name="" id="" cols="30" rows="10" maxlength="300"></textarea>
    
 
 
@@ -57,8 +63,25 @@
 
     <h2><u>Reddit Search Form</u></h2>
     <form action="https://www.reddit.com/search">
-        <input type="text" name="q">
-        <button>SUBMIT</button>
+        <div>
+            <label for="search">Search Term</label>
+            <input type="text" name="q" id="search">
+        </div>
+
+        <div>
+        <label for="sort">Sort by:</label>
+        <select name="sort" id="sort">
+            <option value="top">Top posts</option>
+            <option value="relevance">Relevant posts</option>
+            <option value="new">New posts</option>
+            <option value="hot">Comments</option>
+            <option value="comments">Hot</option>
+        </select>
+        <input type="submit" value="search">
+
+        </div>
+
+
     </form>
 
 
