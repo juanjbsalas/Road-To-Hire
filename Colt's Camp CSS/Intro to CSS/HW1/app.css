@@ -1,0 +1,18 @@
+h1 {
+    text-decoration: underline;
+    background-color: white;
+}
+
+h2 {
+    color: orange;
+    text-decoration: underline;
+    border: 2px solid black;
+}
+
+body{
+    background-color: lightpink;
+}
+
+img{
+    border: 2px solid red;
+}
