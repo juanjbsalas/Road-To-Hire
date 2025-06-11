@@ -38,7 +38,7 @@
   flex-wrap: wrap;
 }
 
-.container div:nth-child(3n) {
+.box:nth-child(3n) {
   flex: 100%;
 }
 
