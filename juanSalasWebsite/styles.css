@@ -1,0 +1,82 @@
+nav {
+    display: flex;
+    border: 5px solid black;
+    height: 80px;
+    background-color: lightgrey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    display: flex;
+    /* flex-direction: row; */
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome {
+    height: 100vh;
+}
+
+#about {
+    height: 100vh;
+}
+
+#portfolio {
+    height: 100vh;
+}
+
+#contact {
+    height: 100vh;
+}
+
+main {
+    margin-top: 100px;
+    background-color: #b44b5a;
+    width: 100vw;
+}
+
+h1, h2 {
+    text-decoration: underline;
+}
+
+
+.about-container {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-container {
+    /* border: 5px solid black; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-basis: auto;
+    text-align: center;
+    height: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+    /* justify-content: center; */
+    /* flex-basis: 10em; */
+
+}
+
+.portfolio-container div {
+    border: 3px solid black;
+    width: calc(100vw / 3);
+}
+
+.portfolio-container:nth-child(4) {
+    width: 100vw;
+}
+
+video {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 70%;
+    width: 90%;
+}
+
