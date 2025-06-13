@@ -1,20 +1,33 @@
 nav {
     display: flex;
-    border: 5px solid black;
-    height: 80px;
-    background-color: lightgrey;
+    /* border: 5px solid black; */
+    height: 8vh;
+    background-color: #EDF2F7;
     position: fixed;
+    z-index: 100;  /* I put it here to ensure navbar does not appear behind video when scrolling down. Source: https://developer.mozilla.org/en-US/docs/Web/CSS/z-index */
     top: 0;
     width: 100%;
-}
+} 
 
-nav a {
+
+
+
+ nav a, a:visited {
     display: flex;
+    color: black;
     /* flex-direction: row; */
     flex: 1;
-    text-align: center;
+    /* text-align: center; */
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    font-size: 2rem;
+    border-right: 2px solid black;
+}
+
+
+nav a:hover {
+    background-color: #2B6CB0;
 }
 
 #welcome {
@@ -22,7 +35,7 @@ nav a {
 }
 
 #about {
-    height: 100vh;
+    height: calc(100vh - 8vh);
 }
 
 #portfolio {
@@ -35,32 +48,87 @@ nav a {
 
 main {
     margin-top: 100px;
-    background-color: #b44b5a;
+    background-color: #F7FAFC;
     width: 100vw;
 }
 
+
 h1, h2 {
-    text-decoration: underline;
+    color: #1A202C;
+    border: 9px solid black;
+    /* margin-top: 0%;
+    margin-bottom: 0%; */
+    font-family: "Workbench", sans-serif;
+    font-size: 6em;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0;
+
 }
 
+h2 {
+    color: #4A5568;
+}
+
+p {
+    color: #2D3748;
+    font-family: "Newsreader", serif;
+    font-size: 2em;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+
+.welcome-container {
+    display: flex;
+    justify-content: center;
+
+}
 
 .about-container {
     display: flex;
     justify-content: center;
 }
 
+.about-container li {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 12.5vh;
+    display: inline-block;
+}
+
+
+
 .portfolio-container {
     /* border: 5px solid black; */
     display: flex;
     /* flex-wrap: wrap; */
-    flex-basis: auto;
+    /* flex-basis: auto; */
     text-align: center;
     height: 80%;
     margin-left: 2%;
     margin-right: 2%;
-    /* justify-content: center; */
+    justify-content: center;
     /* flex-basis: 10em; */
 
+}
+
+.portfolio-container p {
+    color: #2D3748;
+    font-family: "Newsreader", serif;
+    font-size: 1em;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
 }
 
 .portfolio-container div {
@@ -80,3 +148,24 @@ video {
     width: 90%;
 }
 
+figure img{
+    height: calc(100vh - 30vh);
+    object-fit: cover;
+}
+
+/* @media screen and (max-width: 700px) {
+
+    h1, h2 {
+        font-size: 5rem;
+    }
+
+    .welcome-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 50vh;
+    }
+
+    
+} */

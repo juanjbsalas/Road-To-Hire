@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juan's Website</title>
     <link rel="stylesheet" href="styles.css">
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Honk&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Workbench&display=swap');
+    </style>
+
 </head>
 <body>
     <nav>
-        <a href="">About Me</a>
-        <a href="">Portfolio</a>
-        <a href="">Contact</a>
+        <a href=#about>About Me</a>
+        <a href=#portfolio>Portfolio</a>
+        <a href=#contact>Contact</a>
     </nav>
 
     <main>
@@ -19,37 +24,50 @@
 
             <h1>Welcome!</h1>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis delectus commodi qui ab, ipsa modi. 
-                Sed minima aliquid, odio eligendi voluptate laboriosam illo eum dolor excepturi mollitia corporis officiis 
-                inventore!</p>
-            <hr>
+            <div class="welcome-container">
+                <div>
+                    <p>Hi, I'm Juan — welcome to my portfolio. Take a look around! Explore my projects, 
+                        learn about my experience, and feel free to get in contact if you'd like to collaborate or learn more.
+                    </p>
+                    <ul>
+                        <a href=#about>About Me</a>
+                        <a href=#portfolio>Portfolio</a>
+                        <a href=#contact>Contact</a>
+                    </ul>
+                </div>
+                <figure>
+                    <img src="figures/welcome_portrait.png" alt="Portrait image of Juan Salas wearing tuxedo">
+                </figure>
+
+            </div>
+
+
         </section>
 
         <section id="about">
-
-            <h2>About Me</h2>
+            
+            <h2>About Me!</h2>
 
             <div class="about-container">
                 
                 <div>
                 <!-- <h2>About Me</h2> -->
-                <p>Hey everyone! My name is Juan and I'm a junior majoring in Computer Science and Applied Mathematics 
-                    at Wofford College. I'm from Charlotte, NC and I'm interested in becoming a Software Engineer. 
-                    During my free time I enjoy hiking, outdoors, weightlifting, swimming and pickleball, so if you
-                    like one of those things we have something in common!
-                </p>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/juansalasgonzalez/" target="_blank">Linkedin</a></li>
-                    <li><a href="https://github.com/juanjbsalas" target="_blank">GitHub</a></li>
-                    <li><a href="mailto:jbsalas05@gmail.com">Email</a></li>
-                </ul>
+                    <p>Hey everyone! My name is Juan and I'm a junior majoring in Computer Science and Applied Mathematics 
+                        at Wofford College. I'm from Charlotte, NC and I'm interested in becoming a Software Engineer. 
+                        During my free time I enjoy hiking, outdoors, weightlifting, swimming and pickleball, so if you
+                        like one of those things we have something in common!
+                    </p>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/juansalasgonzalez/" target="_blank">Linkedin</a></li>
+                        <li><a href="https://github.com/juanjbsalas" target="_blank">GitHub</a></li>
+                        <li><a href="mailto:jbsalas05@gmail.com">Email</a></li>
+                    </ul>
                 </div>
 
-                <div>
-                <img src="portrait.png" alt="Portrait image of Juan Salas">
-                </div>
+                <figure>
+                    <img src="figures/portrait.png" alt="Portrait image of Juan Salas">
+                </figure>
             </div>
-            <hr>
 
         </section>
 
@@ -59,7 +77,7 @@
         <div class="portfolio-container">
             <div>
                 <h3>Smart Koozie</h3>
-                <video src="smartkoozie.mp4" width="763.594px" height="354px" controls autoplay muted></video>
+                <video src="figures/smartkoozie.mp4" width="763.594px" height="354px" controls autoplay muted></video>
                 <p>Smart Koozie is a Bluetooth-enabled koozie that 
                     allows users toggle a thermoelectric cooler from their phone using the 
                     RemoteXY mobile app. Learn more about it 
@@ -85,12 +103,10 @@
                 <input type="text" name="message" id="message">
                 <input type="submit" value="Send">
             </form>
-            <hr>
         </section>
     
     </main>
 
-    <hr>
     <footer>
         <p>lorem ipsum</p>
     </footer>
