@@ -160,18 +160,20 @@ figure img{
     justify-content: center;
     /* flex-grow: 10; */
     /* align-items: center; */
+    /* word-wrap: break-word; */
+
 }
 
 #name, #email {
     height: 50px;
-    width: 100vw;
+    width: 97vw;
     font-size: 0.5em;
     border-radius: 0.5em;
 }
 
 #message {
     height: 200px;
-    width: 100vw;
+    width: 97vw;
     border-radius: 1em;
     font-size: 0.5em;
 }
