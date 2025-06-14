@@ -1,3 +1,9 @@
+html {
+    scroll-behavior: smooth; /* adds transition when scrolling */
+    scroll-padding-top: 8vh; /* makes it so that the navbar doesnt overlap whenever it is clicked to go to a certain section */
+}
+
+
 nav {
     display: flex;
     /* border: 5px solid black; */
@@ -89,6 +95,22 @@ p {
     justify-content: center;
 
 }
+
+.welcome-container a {
+    font-size: 2em;
+    display: flex;
+    /* flex-direction: row; */
+    /* text-decoration: none; */
+    color: #2D3748;
+    font-family: "Newsreader", serif;
+    font-size: 2em;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 2em;
+
+}
+
 
 .about-container {
     display: flex;
