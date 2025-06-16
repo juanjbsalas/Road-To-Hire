@@ -308,6 +308,20 @@ figure img{
         height: 60%;
     }
 
+    #name, #email {
+    /* height: 50px; */
+    width: 95vw;
+    /* font-size: 0.5em; */
+    /* border-radius: 0.5em; */
+}
+
+    #message {
+        /* height: 200px; */
+        width: 95vw;
+        /* border-radius: 1em; */
+        /* font-size: 0.5em; */
+    }
+
     .contact-container #submit1 {
         width: 50vw;
         height: 10vh;
