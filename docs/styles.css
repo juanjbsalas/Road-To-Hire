@@ -265,7 +265,7 @@ figure img{
     }
 
     h1, h2{
-        border: 3px solid black;
+        /* border: 3px solid black; */
         margin-top: 110px;
         margin-bottom: 0px;
     }
@@ -305,6 +305,10 @@ figure img{
         width: calc(100vw / 2);
         height: 95vh;
         margin-top: 0;
+    }
+    
+    .portfolio-container img {
+        height: 60%;
     }
 
 
