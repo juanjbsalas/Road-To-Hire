@@ -22,9 +22,7 @@ nav {
  nav a, a:visited {
     display: flex;
     color: black;
-    /* flex-direction: row; */
     flex: 1;
-    /* text-align: center; */
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -68,12 +66,6 @@ h1, h2 {
     margin-bottom: 0%; */
     font-family: "Honk", "Workbench", sans-serif;
     font-size: 7em;
-    /* font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-        "BLED" 0,
-        "SCAN" 0; */
 
 }
 
@@ -132,6 +124,14 @@ p {
     margin: 2em;
     font-size: 2em;
 }
+
+/* Tried this to have logos before urls for social media but it didnt work */
+/* .about-container ul:nth-of-type(1)::before {
+    content: "";
+    background-image: url("figures/linkedin.png");
+
+} */
+
 
 
 
@@ -237,15 +237,56 @@ figure img{
 
 
 
-/* @media screen and (max-width: 700px) {
+/* I've tried multiple times to fix responsiveness */
+
+@media screen and (max-width: 700px) {
 
     nav {
         display: flex;
         flex-direction: column;
-        position: relative;
-
-
-
+        height: auto;
     }
+
+    nav a, nav a:visited {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: none;
+        border-bottom: 2px solid lightgray;
+        /* border-right: 2px solid lightgray; */
+    }
+
+    h1, h2{
+        border: 3px solid black;
+        margin-top: 110px;
+        margin-bottom: 0px;
+    }
+
+
+    .welcome-container, .about-container{
+        flex-direction: column;
+        font-size: small;
+        margin-top: 0;
+    }
+
+    .welcome-container p, .about-container p {
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+    }
+
+
+    .welcome-container img, .about-container img {
+        height: 400px;
+    }
+
+    .about-container li { 
+        text-decoration: none;
+        margin-top: 2vh;
+        display: inline;
+        /* margin: 2em;
+        font-size: 2em; */
+    }
+
+
     
-} */
+}
