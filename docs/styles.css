@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth; /* adds transition when scrolling */
     scroll-padding-top: 8vh; /* makes it so that the navbar doesnt overlap whenever it is clicked to go to a certain section */
+
 }
 
 
@@ -27,6 +28,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    font-family: "Bungee Spice", "Workbench", "sans-serif";
     font-size: 2rem;
     border-right: 2px solid black;
 }
@@ -61,22 +63,28 @@ main, footer{
 
 h1, h2 {
     color: #1A202C;
-    border: 9px solid black;
+    /* border: 9px solid black; */
     /* margin-top: 0%;
     margin-bottom: 0%; */
-    font-family: "Workbench", sans-serif;
-    font-size: 6em;
-    font-optical-sizing: auto;
+    font-family: "Honk", "Workbench", sans-serif;
+    font-size: 7em;
+    /* font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
         "BLED" 0,
-        "SCAN" 0;
+        "SCAN" 0; */
 
 }
 
 h2 {
     color: #4A5568;
+}
+
+h3 {
+    font-family: "Bungee Spice", "Workbench", "sans-serif";
+    /* text-decoration: underline; */
+    font-size: 1.5em;
 }
 
 p {
@@ -117,15 +125,15 @@ p {
     justify-content: center;
 }
 
-.about-container li {
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.about-container li { 
     text-decoration: none;
-    margin-top: 12.5vh;
+    margin-top: 2vh;
     display: inline-block;
+    margin: 2em;
+    font-size: 2em;
 }
+
+
 
 
 
@@ -168,6 +176,11 @@ video {
     top: 0;
     height: 70%;
     width: 90%;
+}
+
+.portfolio-container img {
+    height: 70%;
+    width: 90%;    
 }
 
 figure img{
@@ -226,17 +239,13 @@ figure img{
 
 /* @media screen and (max-width: 700px) {
 
-    h1, h2 {
-        font-size: 5rem;
-    }
-
-    .welcome-container {
+    nav {
         display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
-        height: 50vh;
-    }
+        position: relative;
 
+
+
+    }
     
 } */
