@@ -7,7 +7,6 @@ html {
 
 nav {
     display: flex;
-    /* border: 5px solid black; */
     height: 8vh;
     background-color: #EDF2F7;
     position: fixed;
@@ -53,7 +52,6 @@ nav a:hover {
 }
 
 main, footer{
-    /* margin-top: 100px; */
     background-color: #F7FAFC;
     width: 100vw;
 }
@@ -61,9 +59,6 @@ main, footer{
 
 h1, h2 {
     color: #1A202C;
-    /* border: 9px solid black; */
-    /* margin-top: 0%;
-    margin-bottom: 0%; */
     font-family: "Honk", "Workbench", sans-serif;
     font-size: 7em;
 
@@ -75,7 +70,6 @@ h2 {
 
 h3 {
     font-family: "Bungee Spice", "Workbench", "sans-serif";
-    /* text-decoration: underline; */
     font-size: 1.5em;
 }
 
@@ -99,8 +93,6 @@ p {
 .welcome-container a {
     font-size: 2em;
     display: flex;
-    /* flex-direction: row; */
-    /* text-decoration: none; */
     color: #2D3748;
     font-family: "Newsreader", serif;
     font-size: 2em;
@@ -138,17 +130,12 @@ p {
 
 
 .portfolio-container {
-    /* border: 5px solid black; */
     display: flex;
-    /* flex-wrap: wrap; */
-    /* flex-basis: auto; */
     text-align: center;
     height: 80%;
     margin-left: 2%;
     margin-right: 2%;
     justify-content: center;
-    /* flex-basis: 10em; */
-
 }
 
 .portfolio-container p {
@@ -193,10 +180,6 @@ figure img{
     font-size: 50px;
     flex-direction: column;
     justify-content: center;
-    /* flex-grow: 10; */
-    /* align-items: center; */
-    /* word-wrap: break-word; */
-
 }
 
 #name, #email {
@@ -227,7 +210,6 @@ figure img{
     margin-left: 5em;
 
     font-family: "Newsreader", serif;
-    /* font-size: 2em; */
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -235,6 +217,8 @@ figure img{
 
 }
 
+
+/* Responsiveness for smaller screens such as mobile phones and tablets */
 
 @media screen and (max-width: 700px) {
 
@@ -258,11 +242,9 @@ figure img{
         align-items: center;
         border-right: none;
         border-bottom: 2px solid lightgray;
-        /* border-right: 2px solid lightgray; */
     }
 
     h1, h2{
-        /* border: 3px solid black; */
         margin-top: 110px;
         margin-bottom: 0px;
     }
@@ -288,15 +270,7 @@ figure img{
         text-decoration: none;
         margin-top: 2vh;
         display: inline;
-        /* margin: 2em;
-        font-size: 2em; */
     }
-
-    /* .portfolio-container {
-        margin-left: 0px;
-        margin-right: 0px;
-
-    } */
 
     .portfolio-container div {
         width: calc(100vw / 2);
@@ -309,17 +283,11 @@ figure img{
     }
 
     #name, #email {
-    /* height: 50px; */
     width: 95vw;
-    /* font-size: 0.5em; */
-    /* border-radius: 0.5em; */
 }
 
     #message {
-        /* height: 200px; */
         width: 95vw;
-        /* border-radius: 1em; */
-        /* font-size: 0.5em; */
     }
 
     .contact-container #submit1 {
@@ -330,11 +298,8 @@ figure img{
         justify-content: center;
         align-items: center;
         border-radius: 1em;
-        /* margin-right: 5em;
-        margin-left: 5em; */
 
         font-family: "Newsreader", serif;
-        /* font-size: 2em; */
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
@@ -342,5 +307,4 @@ figure img{
 
     }
 
-    
 }
