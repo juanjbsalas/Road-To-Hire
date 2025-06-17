@@ -251,7 +251,12 @@ figure img{
     justify-content: space-around;
 }
 
-.about-container a, .about-container a:link {
+.about-container a {
+    text-decoration: none;
+    color: #2D3748;
+}
+
+.about-container a:link {
     text-decoration: none;
     color: #2D3748;
 }
