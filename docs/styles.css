@@ -251,7 +251,7 @@ figure img{
     justify-content: space-around;
 }
 
-.about-container a {
+.about-container a, .about-container a:visited {
     text-decoration: none;
     color: #2D3748;
 }
