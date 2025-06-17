@@ -117,18 +117,6 @@ p {
     font-size: 2em;
 }
 
-/* Tried this to have logos before urls for social media but it didnt work */
-/* .about-container ul:nth-of-type(1)::before {
-    content: "";
-    background-image: url("figures/linkedin.png");
-
-} */
-
-
-
-
-
-
 .portfolio-container {
     display: flex;
     text-align: center;
@@ -217,7 +205,6 @@ figure img{
 
 }
 
-/* Style all font awesome icons */
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -226,7 +213,6 @@ figure img{
   text-decoration: none;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
@@ -257,7 +243,6 @@ figure img{
 
 .about-container a {
     text-decoration: none;
-    /* font-family: "Newsreader", "serif";  */
 }
 
 /* Responsiveness for smaller screens such as mobile phones and tablets */
