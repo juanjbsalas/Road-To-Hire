@@ -4,7 +4,7 @@ does not return anything. A potential use case would be to let the user change t
 background color of the page. */
 
 function changeStyle(id, styles) {
-    const el1 = document.querySelector(id);
+    const el1 = document.getElementById(id);
     const desiredStyle = styles;
 
     for (let prop in styles) {
