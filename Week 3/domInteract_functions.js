@@ -36,3 +36,5 @@ function addNewElement(elementTag, parentId) {
 // An example of this function would be: **Test on browser console*
 const parentElementId = "first-heading";
 addNewElement("p", parentElementId);
+
+// blah blah
