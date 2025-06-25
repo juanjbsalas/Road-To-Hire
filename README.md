@@ -1,7 +1,7 @@
-# HTML-CSS-Practice
+# Road-To-Hire
 
-Welcome to my **HTML-CSS-Practice** repository!
-This repo contains nearly all of my work, assignments, and projects completed during the **Road to Hire Tech Internship**.
+Welcome to my **Road-To-Hire** repository!
+This repo contains nearly all of my work, assignments, and projects completed during the **Road to Hire Tech (Coding) Internship**.
 
 ## 🔗 Live Portfolio
 
@@ -26,6 +26,14 @@ Practice projects and styling exercises focused on CSS, also from Colt Steele’
 ### `Modern JS Bootcamp course/`
 
 Assignments and code snippets from **The Modern JavaScript Bootcamp** on Udemy, also taught by Colt Steele.
+
+### `Week 3/`
+
+TBA
+
+### `Week 4/`
+
+TBA
 
 ---
 
