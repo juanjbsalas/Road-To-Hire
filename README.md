@@ -6,7 +6,7 @@ This repo contains nearly all of my work, assignments, and projects completed du
 ## 🔗 Live Portfolio
 
 Check out my live portfolio website:
-👉 [https://juanjbsalas.github.io/HTML-CSS-Practice/](https://juanjbsalas.github.io/HTML-CSS-Practice/)
+👉 [https://juanjbsalas.github.io/Road-To-Hire/](https://juanjbsalas.github.io/Road-To-Hire/)
 This site is built using HTML and CSS and is hosted via GitHub Pages from the `docs/` folder.
 
 ## 📁 Repository Structure
