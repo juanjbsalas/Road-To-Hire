@@ -4,10 +4,10 @@
 
 // console.log("The script is running!");
 
-let todo1 = document.querySelector('#todos .todo');
+// let todo1 = document.querySelector('#todos .todo');
 
-todo1.style.color = 'lightgrey';
-todo1.style.textDecoration = 'line-through';
+// todo1.style.color = 'lightgrey';
+// todo1.style.textDecoration = 'line-through';
 
 // Stepby-Step
 // 1: Get text input from textbox, function that gets input from textbox and returns input
@@ -28,10 +28,21 @@ function addTask(x) {
     document.getElementById('todos-list').innerHTML += `<li class="todo"><button>X</button>${x}</li>`;
 }
 
+let count = 0;
 
-// function addTask1() {
-//     console.log("This function is running!")
-// }
+function crossTask() {
+    const todo = document.querySelector('#todos-list li');
+    count += 1
+    
+    if (count % 2 !== 0) {
+        todo.style.color = 'lightgrey';
+        todo.style.textDecoration = 'line-through';   
+    } else {
+        todo.style.color = 'black';
+        todo.style.textDecoration = 'none';  
+    }
+
+}
 
 
 
