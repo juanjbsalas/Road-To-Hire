@@ -11,28 +11,27 @@
 
 <body>
 <main>
-    <section>
-        <div class="principal-container">
-            <div><h1>Your Favorite To-Do List</h1></div>
-            <div>
-                <form action="">
-                    <input type="text" placeholder="Type your task here!" id="userInput">
-                    <input type="button" name="add" value="Add Task!" onclick="addTask(getUserInput())">
-                </form>
-            </div>
-        </div>
+    <section id="principal-container">
+        <h1>Your Favorite To-Do List</h1>
+            <form action="">
+                <input type="text" placeholder="Type your task here!" id="userInput">
+                <input type="button" name="add" value="Add Task!" onclick="addTask(getUserInput())">
+            </form>
     </section>
     <hr>
 
-    <section id="todos">
+    <section id="todos-container">
         <ul id="todos-list">
             <li class="todo">
                 <input type="checkbox" onclick="crossTask(event)">
-                Finish Laundry
+                Text LaTori about upcoming assignment
                 <button onclick="deleteTask(event)">X</button>
             </li>
-            <!-- <li class="todo"><input type="checkbox" onclick="crossTask(event)">Make dinner</li>
-            <li class="todo"><input type="checkbox" onclick="crossTask(event)">Walk dog</li> -->
+            <li class="todo">
+                <input type="checkbox" onclick="crossTask(event)">
+                Send Justin Agenda
+                <button onclick="deleteTask(event)">X</button>
+            </li>
         </ul>
     </section>
 </main>

@@ -1,5 +1,5 @@
 function getUserInput() {
-    console.log("Function 1 is running!!");
+    // console.log("Function 1 is running!!");
     const userInput = document.getElementById('userInput');
     const userInputValue = userInput.value;
     
@@ -8,7 +8,7 @@ function getUserInput() {
 
 function addTask(userInputValue) { 
     // x should be the userInputValue such as "Wash Laundry"
-    console.log("Now Figure 2 is running!");
+    // console.log("Now Figure 2 is running!");
     document.getElementById('todos-list').innerHTML += `<li class="todo">\n\t<input type="checkbox" onclick=crossTask(event)>\n\t${userInputValue}\n\t<button onclick="deleteTask(event)">X</button>\n</li>`;
 }
 

@@ -2,3 +2,30 @@
     font-size: 30px;
 }
 
+/* Smartphone Screen */
+@media screen and (max-width: 500px) {
+    .todo {
+        font-size: 20px;
+    }
+
+    #principal-container {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    #todos-container {
+        display: flex;
+        border: 3px solid lightblue;
+    }
+
+    #todos-container ul{
+        display: flex;
+        flex-direction: column;
+        border: 3px solid lightgreen;
+    }
+}
+
+
+/* Tablet Screen */
+
