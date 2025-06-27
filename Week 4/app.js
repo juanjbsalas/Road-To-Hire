@@ -25,24 +25,28 @@ function getUserInput() {
 function addTask(x) { 
     // x should be the userInputValue such as "Wash Laundry"
     console.log("Now Figure 2 is running!");
-    document.getElementById('todos-list').innerHTML += `<li class="todo"><button>X</button>${x}</li>`;
+    document.getElementById('todos-list').innerHTML += `<li class="todo"><input type="checkbox" onclick=crossTask(event)>${x}</li>`;
 }
 
-let count = 0;
 
-function crossTask() {
-    const todo = document.querySelector('#todos-list li');
-    count += 1
-    
-    if (count % 2 !== 0) {
-        todo.style.color = 'lightgrey';
-        todo.style.textDecoration = 'line-through';   
+function crossTask(event) {
+
+    const checkbox = event.target;
+    const task = event.target.parentElement;
+
+    // console.dir(checkbox);
+
+    if (event.target.checked) {
+        task.style.color = 'lightgrey';
+        task.style.textDecoration = 'line-through';   
     } else {
-        todo.style.color = 'black';
-        todo.style.textDecoration = 'none';  
+        task.style.color = 'black';
+        task.style.textDecoration = 'none';   
     }
 
 }
+
+
 
 
 
