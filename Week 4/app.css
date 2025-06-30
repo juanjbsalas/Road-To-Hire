@@ -25,10 +25,9 @@ body {
     flex-direction: column;
 }
 
-footer p {
+footer p , footer a{
     text-align: center;
     text-decoration: none;
-
 }
 
 #principal-container {
@@ -39,7 +38,7 @@ footer p {
 }
 
 #principal-container input[type=button] {
-    background-color: #ee8300;
+    background-color: #d08120;
 }
 
 
@@ -62,21 +61,40 @@ footer p {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-#principal-container input[type=text], #principal-container input[type=button] {
+#principal-container input[type=text] {
     border-radius: 5px;
     border: 2px solid lightgray;
-    height: 30px;
-}
-
-#principal-container input[type=text] {
+    height: 40px;
+    font-family: 'Newsreader', 'sans-serif';
+    font-size: 30px;
     width: 60vw;
-}
 
-#principal-container input[type=button]{
-    width: auto;
 }
 
 
+#principal-container input[type=button] {
+    font-family: 'Bungee Spice', 'Newsreader', 'Sans-serif';
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+#subPrincipal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subPrincipal-container input[type=button] {
+    height: 70px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-left: 5px;
+}
 
 
 /* Smartphone Screen */
@@ -120,23 +138,37 @@ footer p {
         box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     }
 
-    #principal-container input[type=button] {
-        border-radius: 8px;
-    }
-
-    #principal-container input[type=text], #principal-container input[type=button] {
+    #principal-container input[type=text] {
         border-radius: 5px;
         border: 2px solid lightgray;
         height: 30px;
-    }
-
-    #principal-container input[type=text] {
+        font-size: 15px;
         width: 60vw;
     }
 
     #principal-container input[type=button]{
-        width: 30vw;
+        /* width: auto; */
+        font-family: 'Bungee Spice', 'Newsreader', 'Sans-serif';
+        /* height: 40px; */
+        /* font-size: 40px; */
+        padding: 0;
+        background-color: transparent;
+        border: none;
+        text-align: center;
+        width: auto;
     }
+
+    #subPrincipal-container input[type=button] {
+        height: 60px;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-left: 5px;
+    }
+
+
 }
 
 

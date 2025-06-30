@@ -7,8 +7,6 @@ function getUserInput() {
 }
 
 function addTask(userInputValue) { 
-    // x should be the userInputValue such as "Wash Laundry"
-    // console.log("Now Figure 2 is running!");
     document.getElementById('todos-list').innerHTML += `<li class="todo">\n\t<input type="checkbox" onclick=crossTask(event)>\n\t${userInputValue}\n\t<button onclick="deleteTask(event)">&#10006;</button>\n</li>`;
 }
 
