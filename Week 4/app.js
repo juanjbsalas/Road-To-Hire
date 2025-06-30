@@ -21,7 +21,7 @@ function crossTask(event) {
     // console.dir(checkbox);
 
     if (event.target.checked) {
-        task.style.color = 'lightgrey';
+        task.style.color = '#d1d5db';
         task.style.textDecoration = 'line-through';   
     } else {
         task.style.color = 'black';
