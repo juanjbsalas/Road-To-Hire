@@ -9,6 +9,9 @@ Check out my live portfolio website:
 👉 [https://juanjbsalas.github.io/Road-To-Hire/](https://juanjbsalas.github.io/Road-To-Hire/)
 This site is built using HTML and CSS and is hosted via GitHub Pages from the `docs/` folder.
 
+Also check out my To-do list web app!
+👉 [https://juanjbsalas.github.io/Road-To-Hire/todo-app](https://juanjbsalas.github.io/Road-To-Hire/todo-app)
+
 ## 📁 Repository Structure
 
 ### `docs/`
