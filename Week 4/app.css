@@ -27,6 +27,8 @@ body {
 
 footer p {
     text-align: center;
+    text-decoration: none;
+
 }
 
 #principal-container {
@@ -37,20 +39,21 @@ footer p {
 }
 
 #principal-container input[type=button] {
-    background-color: #4F46E5;
+    background-color: #ee8300;
 }
 
 
 #todos-container ul {
     display: flex;
     flex-direction: column;
-    border: 3px solid lightgreen;
+    /* border: 3px solid lightgreen; */
     list-style: none;
+    padding-left: 10px;
 }
 
 #todos-container button {
     border: none;
-    color: #4F46E5;
+    color: #ee8300;
     background: none;
     font-size: 25px;
 }
@@ -59,6 +62,19 @@ footer p {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+#principal-container input[type=text], #principal-container input[type=button] {
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    height: 30px;
+}
+
+#principal-container input[type=text] {
+    width: 60vw;
+}
+
+#principal-container input[type=button]{
+    width: auto;
+}
 
 
 
@@ -69,21 +85,27 @@ footer p {
         font-size: 20px;
     }
 
-    /* #principal-container {
+    h1 {
+        font-size: 30px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    
+    #principal-container {
         display: flex;
         text-align: center;
         flex-direction: column;
-    } */
+    }
 
     #todos-container {
         display: flex;
-        border: 3px solid lightblue;
+        /* border: 3px solid lightblue; */
     }
 
     #todos-container ul{
         display: flex;
         flex-direction: column;
-        border: 3px solid lightgreen;
+        /* border: 3px solid lightgreen; */
         list-style: none;
     }
 
@@ -102,6 +124,19 @@ footer p {
         border-radius: 8px;
     }
 
+    #principal-container input[type=text], #principal-container input[type=button] {
+        border-radius: 5px;
+        border: 2px solid lightgray;
+        height: 30px;
+    }
+
+    #principal-container input[type=text] {
+        width: 60vw;
+    }
+
+    #principal-container input[type=button]{
+        width: 30vw;
+    }
 }
 
 
