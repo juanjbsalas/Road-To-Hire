@@ -16,7 +16,7 @@ Also check out my To-do list web app!
 
 ### `docs/`
 
-Contains the source files for my personal portfolio site. This folder is deployed through GitHub Pages.
+Contains the source files for my personal portfolio site and to-do web app. This folder is deployed through GitHub Pages.
 
 ### `Colt's Camp HTML/`
 
@@ -32,11 +32,11 @@ Assignments and code snippets from **The Modern JavaScript Bootcamp** on Udemy, 
 
 ### `Week 3/`
 
-TBA
+Practice using JavaScript functions to understand the DOM and interact with web page elements.
 
 ### `Week 4/`
 
-TBA
+Readme file which contains link to To-Do list app which I worked on.
 
 ---
 
