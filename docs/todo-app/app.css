@@ -45,7 +45,6 @@ footer p , footer a{
 #todos-container ul {
     display: flex;
     flex-direction: column;
-    /* border: 3px solid lightgreen; */
     list-style: none;
     padding-left: 10px;
 }
@@ -117,13 +116,11 @@ footer p , footer a{
 
     #todos-container {
         display: flex;
-        /* border: 3px solid lightblue; */
     }
 
     #todos-container ul{
         display: flex;
         flex-direction: column;
-        /* border: 3px solid lightgreen; */
         list-style: none;
     }
 
@@ -146,11 +143,8 @@ footer p , footer a{
         width: 60vw;
     }
 
-    #principal-container input[type=button]{
-        /* width: auto; */
+    #principal-container input[type=button] {
         font-family: 'Bungee Spice', 'Newsreader', 'Sans-serif';
-        /* height: 40px; */
-        /* font-size: 40px; */
         padding: 0;
         background-color: transparent;
         border: none;
@@ -170,7 +164,3 @@ footer p , footer a{
 
 
 }
-
-
-/* Tablet Screen */
-
