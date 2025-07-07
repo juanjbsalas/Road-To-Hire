@@ -5,12 +5,15 @@ This repo contains nearly all of my work, assignments, and projects completed du
 
 ## 🔗 Live Portfolio
 
+Check out the **Nike's Timeline** I made using Bootstrap!
+👉 [https://juanjbsalas.github.io/Road-To-Hire/nike-timeline](https://juanjbsalas.github.io/Road-To-Hire/nike-timeline)
+
+Check out my **To-do** list web app!
+👉 [https://juanjbsalas.github.io/Road-To-Hire/todo-app](https://juanjbsalas.github.io/Road-To-Hire/todo-app)
+
 Check out my live portfolio website:
 👉 [https://juanjbsalas.github.io/Road-To-Hire/](https://juanjbsalas.github.io/Road-To-Hire/)
 This site is built using HTML and CSS and is hosted via GitHub Pages from the `docs/` folder.
-
-Also check out my **To-do** list web app!
-👉 [https://juanjbsalas.github.io/Road-To-Hire/todo-app](https://juanjbsalas.github.io/Road-To-Hire/todo-app)
 
 ## 📁 Repository Structure
 
