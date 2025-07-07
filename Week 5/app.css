@@ -76,6 +76,10 @@
   left: -14px;
 }
 
+.main-timeline-2 {
+  position: relative;
+}
+
 
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
