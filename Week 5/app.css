@@ -6,7 +6,11 @@ h1 {
   font-family: 'Bungee Spice', 'Sans-serif';
   margin-top: 20px;
   font-size: 50px;
+}
 
+h2 {
+  font-size: 25px;
+  font-family: 'Newsreader', 'Sans-serif';
 }
 
 /* The actual timeline (the vertical ruler) */
