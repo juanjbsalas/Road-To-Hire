@@ -101,6 +101,11 @@ footer {
   position: relative;
 }
 
+/* Does not work */
+/* div .timeline-2.left-2::before {
+  background-color: black;
+} */
+
 
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
