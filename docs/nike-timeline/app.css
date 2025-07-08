@@ -5,11 +5,11 @@ body {
 h1 {
   font-family: 'Bungee Spice', 'Sans-serif';
   margin-top: 20px;
-  font-size: 50px;
+  font-size: 70px;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 30px;
   font-family: 'Newsreader', 'Sans-serif';
 }
 
@@ -29,7 +29,7 @@ footer {
   content: "";
   position: absolute;
   width: 3px;
-  background-color: #26c6da;
+  background-color: #de6529;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -50,7 +50,7 @@ footer {
   width: 25px;
   height: 25px;
   right: -11px;
-  background-color: #26c6da;
+  background-color: #ca581f;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
