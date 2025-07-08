@@ -45,6 +45,10 @@ Readme file which contains link to To-Do list app which I worked on.
 
 Readme file containing link to Nike's Timeline web app I worked on using Bootstrap.
 
+### `Week 6/`
+
+TBD
+
 ---
 
 Feel free to explore the folders to track my progress and learning journey. This repository showcases how I’ve been sharpening my front-end development skills through hands-on practice.
