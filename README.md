@@ -41,6 +41,10 @@ Practice using JavaScript functions to understand the DOM and interact with web 
 
 Readme file which contains link to To-Do list app which I worked on.
 
+### `Week 5/`
+
+Readme file containing link to Nike's Timeline web app I worked on using Bootstrap.
+
 ---
 
 Feel free to explore the folders to track my progress and learning journey. This repository showcases how I’ve been sharpening my front-end development skills through hands-on practice.
