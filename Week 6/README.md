@@ -1,1 +1,1 @@
-The work I did for Week 6 is found in this [repository](git remote set-url origin https://github.com/your-username/Global-Voyage.git)
+The work I did for Week 6 is found in this [repository](https://github.com/juanjbsalas/Global-Voyage)

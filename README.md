@@ -47,7 +47,15 @@ Readme file containing link to Nike's Timeline web app I worked on using Bootstr
 
 ### `Week 6/`
 
-TBD
+Readme file containing link to Global Voyage web app my team and I worked on.
+
+### `Week 7/`
+
+Readme file containing link to CineScope web app my team and I worked on.
+
+### `Week 8/`
+
+Readme file containing link to Planora web app I worked on using Amadeus API.
 
 ---
 
