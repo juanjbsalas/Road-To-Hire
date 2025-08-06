@@ -1,9 +1,12 @@
 # Road-To-Hire
 
 Welcome to my **Road-To-Hire** repository!
-This repo contains nearly all of my work, assignments, and projects completed during the **Road to Hire Tech (Coding) Internship**.
+This repo contains nearly all of my work, assignments, and projects completed during the **Road to Hire Software Engineering Apprenticeship**.
 
 ## 🔗 Live Portfolio
+
+Check out **Planora**, your favorite travel guide I made using Tailwind CSS, JS and Amadeus API!
+👉 [https://github.com/juanjbsalas/planora](https://github.com/juanjbsalas/planora)
 
 Check out the **Nike's Timeline** I made using Bootstrap!
 👉 [https://juanjbsalas.github.io/Road-To-Hire/nike-timeline](https://juanjbsalas.github.io/Road-To-Hire/nike-timeline)
@@ -53,7 +56,7 @@ Readme file containing link to Global Voyage web app my team and I worked on.
 
 Readme file containing link to CineScope web app my team and I worked on.
 
-### `Week 8/`
+### `Week 8-9-10/`
 
 Readme file containing link to Planora web app I worked on using Amadeus API.
 
